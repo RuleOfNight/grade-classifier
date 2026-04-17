@@ -3,7 +3,12 @@
     "allow": [
       "Bash(gh repo *)",
       "Bash(gh issue create --title 'Viết test JUnit bao phủ tất cả các lệnh \\(Statement Coverage\\)' --body ' *)",
-      "Bash(gh issue create --title 'Viết test JUnit bao phủ tất cả các đường đi \\(Path Coverage\\)' --body ' *)"
+      "Bash(gh issue create --title 'Viết test JUnit bao phủ tất cả các đường đi \\(Path Coverage\\)' --body ' *)",
+      "Bash(gh issue edit 1 --title 'Viết test pytest bao phủ tất cả các lệnh \\(Statement Coverage\\)' --body ' *)",
+      "Bash(gh issue edit 2 --title 'Viết test pytest bao phủ tất cả các đường đi \\(Path Coverage\\)' --body ' *)",
+      "Bash(python -m pytest test_statement_coverage.py -v)",
+      "Bash(python -m pytest test_path_coverage.py -v)",
+      "Bash(gh issue *)"
     ]
   }
 }
