@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh repo *)",
+      "Bash(gh issue create --title 'Viết test JUnit bao phủ tất cả các lệnh \\(Statement Coverage\\)' --body ' *)",
+      "Bash(gh issue create --title 'Viết test JUnit bao phủ tất cả các đường đi \\(Path Coverage\\)' --body ' *)"
+    ]
+  }
+}
